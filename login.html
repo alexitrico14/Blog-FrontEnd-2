@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog FrontEnd</title>
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- NAVBAR -->
+        <header class="header py-4">
+            <div class="logo d-flex align-items-center">
+                <img src="assets/img/logos/adl.png" class="logo__img" alt="Logo Blog-FrontEnd" />
+                <span class="logo__text ms-2">Blog FrontEnd</span>
+                <div class="d-flex ms-auto align-items-center">
+                    <a href="./index.html" class="me-2">Inicio</a>
+                    <a href="#" class="me-2">Login</a>
+                    <a href="./register.html" class="me-2">Registrarse</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Login -->
+        <section class="register">
+            <div class="register__container">
+                <h3 class="register__title">Inicia sesión</h3>
+                <input type="text" name="email" id="email" placeholder="Email" class="register__input">
+                <input type="password" name="password" id="password" placeholder="Contraseña" class="register__input">
+                <button type="button" class="register__button--special"> <a href="./index.html" class="no-style">Iniciar sesión</a></button>
+                <button type="button" class="register__button--google">
+                    <img src="./assets/img/logos/g-icon.svg" alt="Google Logo" class="register__google-logo">
+                    Inicia con Google
+                </button>
+                <p class="register__text">¿No tienes una cuenta? <a href="./register.html"
+                        class="register__link--bold">Registrate</a></p>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="footer d-flex py-4">
+            <div class="logo">
+                <img src="assets/img/logos/adl.png" class="logo__img" alt="Logo Blog FrontEnd" />
+                <span class="logo__text">Blog FrontEnd</span>
+            </div>
+            <span class="footer__text">Desafío Latam - 2023</span>
+        </footer>
+    </div>
+
+    <!-- SCRIPTS -->
+    <script src="./assets/js/scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
+        integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+    <!-- BOOTSTRAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

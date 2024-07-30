@@ -1,0 +1,24 @@
+//abstract
+@import "abstract/variables";
+
+//base
+@import "base/base";
+@import "base/typography";
+
+//layout
+@import "layout/header";
+@import "layout/main";
+@import "layout/footer";
+
+//components
+@import "components/principal-post";
+@import "components/popular-post";
+@import "components/small-post";
+@import "components/info-post";
+@import "components/tags";
+@import "components/subscription";
+@import "components/register";
+@import "components/post-paragraph";
+@import "components/post-principal";
+
+//pages

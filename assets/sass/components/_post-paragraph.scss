@@ -1,0 +1,19 @@
+.post-paragraph {
+    background-color: #EEEEEE;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  
+  .post-paragraph__text {
+    padding: 30px;
+  }
+  
+  .post-paragraph__image {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .post-paragraph__image--img {
+    border-radius: 30px;
+  }
